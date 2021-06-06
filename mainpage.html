@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta character="UTF-8">
+        <meta name="viewport" content="width-device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="style.css" class="css">
+        <script src="https://kit.fontawesome.com/d5a04efe9a.js" crossorigin="anonymous"></script>
+        <title>Login</title>
+    </head>
+     <style>
+  body{
+     font-family:sans-serif;
+     padding:0;
+     margin:0;
+     background-color:#fff;
+ }
+ .container{
+     
+     margin-left:500px;
+     margin-top:10px 
+ }
+ .logo{
+     color:rgba(29,161,242,1.00);
+     font-size: 2 px;
+     margin-left: 20px;
+ }
+ h1{
+            font-size: 40px;
+            margin-bottom: 10px;
+            color:#000000;
+            font-family:'lato',sans-serif;
+}
+ .data input{
+     
+     border-color:rgb(19, 115, 241);
+     background-color: "transparent";
+     color:black;
+     min-width: 90px; 
+    min-height:25px
+}
+
+.log-in {
+  background: black;
+  width: 35rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 0.1rem solid rgba(var(--border-color), 0.5);
+  padding: 1.5rem 4rem;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+
+.logo {
+  width: 19rem;
+  margin-bottom: 1rem;
+}
+
+.log-in-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+
+.log-in-form input,
+.log-in-button {
+  padding: 1rem 4rem 1rem;
+  border-radius: 2.0rem;
+}
+
+
+.log-in-form input,
+.log-in-form input:placeholder {
+  font-size: 1.2rem;
+  font-family: "Segoe";
+}
+
+
+.log-in-form input {
+  background: var(--background-color);
+  border: 0.1rem solid rgba(var(--border-color), 0.5);
+  outline: none;
+}
+
+
+.log-in-form input[type="text"] {
+  margin-bottom: 2.0rem;
+}
+
+
+.log-in-form input:placeholder {
+  color: var(--placeholder-color);
+}
+
+
+.log-in-form input:focus {
+  border-color: rgba(var(--border-color), 0.8);
+}
+
+.log-in-button {
+  background: var(--white);
+  color: var(--white);
+  margin: 4rem 0rem;
+  font-weight: 800;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+
+    .data button{
+        background-color: rgb(29, 79, 245);
+        border:skyblue;
+        color:white;
+        border-radius: 50px  ;
+        margin-top: 10px;
+        padding:100 px;
+        min-width:60px;
+        font size: 2px;
+    }
+
+    .sec-forget{
+        margin-top: 0px;
+        margin-left: 0px ;
+        font-size: 13px;
+        margin-bottom: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+        
+    }
+    .transbox{
+        
+         opacity: 1.0;
+         
+    }
+    .transbox ::placeholder{
+        text-align: left;
+         text-decoration:black;
+         
+    }
+    
+</style>
+        <div class="container">
+            <div class="logo">
+                <i class="fab fa-twitter fa-2x"></i>
+            </div>        
+                <div class="data">
+                   <h1>Log in to Twitter</h1>
+                    <div class="transbox">
+    
+                    <input type="text" id="name" placeholder="  Phone, email or username">
+                    <br><br> 
+                    <input type="password" id="name" placeholder="  Password" ></div><br>
+                    <button class="log-in-button" input type="button" onclick="window.location.href = 'twitter.html';"value="login"/>Log in</button>
+            <div class="sec-forget">
+                <a href="">Forget password?</a>
+                <a href="">Sign up for twitter
+                </a>
+            </div>
+        </div>
+    </body>
+</html>
+
